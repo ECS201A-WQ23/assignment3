@@ -268,7 +268,8 @@ I recommend starting with very little numbers for the rest of the parameters, es
 Before running any simulations answer the following questions in your report.
 
 1- What will be the average speed up of `HW3BigCore` over `HW3LittleCore`? Can you predict an upper bound using your pipeline parameters?
-**Hint**: You can predict and upper bound for the speed up using Amdahl's law with optimistic values.
+**Hint**: You can predict an upper bound for the speed up using Amdahl's law with optimistic values.
+
 2- Do you think all the workloads will experience the same speed up between `HW3BigCore` and `HW3LittleCore`?
 
 ### Step I: Performance comparison
@@ -284,7 +285,7 @@ Use simulation data with proper simulation data to strengthen your reasoning.
 1. What is the speed up of `HW3BigCore` over `HW3LittleCore` for each workload?
 2. What is the average improvement in IPC of `HW3BigCore` compared to `HW3LittleCore` over all the workloads?
 **CAUTION**: Make sure to use the correct mean to report average IPC improvement.
-3. Some workloads show more speedup that others. Which workloads show high speedup, which show low speedup? Look at the benchmark code (both the `.c` and `.s` files may be useful) and speculate the *algorithm characteristics* which influence the IPC difference between `HW3BigCore` and `HW3LittleCore`. What characteristics do applications have that lead to low performance improvement and what characteristics lead to high performance improvement?
+3. Some workloads show more speedup than others. Which workloads show high speedup, which show low speedup? Look at the benchmark code (both the `.c` and `.s` files may be useful) and speculate the *algorithm characteristics* which influence the IPC difference between `HW3BigCore` and `HW3LittleCore`. What characteristics do applications have that lead to low performance improvement and what characteristics lead to high performance improvement?
 4. Which workload has the highest IPC for `HW3BigCore`? What is unique about this workload?
 
 **Hints**: Take a look at the assembly code of the **ROI** for inspiration.
@@ -317,7 +318,7 @@ In your report include the following figure.
 
 2. Create a [pareto frontier](https://en.wikipedia.org/wiki/Pareto_efficiency) plot with cost on the y-axis and performance on the x-axis.
 This will be a scatter plot with 6 points: the two "big" and "LITTLE" cores as well as your 4 middle ground designs.
-Then, "connet the dots" on the "best" designs.
+Then, "connect the dots" on the "best" designs.
 
 Answer this question in your report.
 
